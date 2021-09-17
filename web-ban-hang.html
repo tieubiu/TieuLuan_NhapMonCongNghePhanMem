@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Giao diện đặt món</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main class="main-container">
+        <section class="section">
+            <div class="tab-pane">
+                <h2 class="text-center">Menu</h2>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#menu1">Salad & Appetizers</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Drinks</a></li>
+                    <li><a data-toggle="tab" href="#menu3">Rice & Noodle</a></li>
+                    <li><a data-toggle="tab" href="#menu4">Desert</a></li>
+                </ul>
+            </div>
+            <div class="tab-content" id="MenuContent">
+                <div class="tab-pane fade active in" id="menu1" role="tabpanel">
+                    <div class="products">
+                        <div class="product">
+                            <img class="product__image" src="img/products/Salad.svg" alt="Beer">
+                            <h2 class="product__name">Veggie salad</h2>
+                            <h3 class="product__price">5.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/fruit salad.svg" alt="Energy Drink">
+                            <h2 class="product__name">Fruit salad</h2>
+                            <h3 class="product__price">8.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/avocado salad.svg" alt="Juice">
+                            <h2 class="product__name">Avocado salad</h2>
+                            <h3 class="product__price">9.50</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Peanut.svg" alt="Milk">
+                            <h2 class="product__name">Peanut</h2>
+                            <h3 class="product__price">3.50</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Cracker.svg" alt="Mineral Water">
+                            <h2 class="product__name">Cracker</h2>
+                            <h3 class="product__price">3.50</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/onion ring.svg" alt="Smoothie">
+                            <h2 class="product__name">onion ring</h2>
+                            <h3 class="product__price">4.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="menu2" role="tabpanel">
+                    <div class="products">
+                        <div class="product">
+                            <img class="product__image" src="img/products/beer.svg" alt="Beer">
+                            <h2 class="product__name">Beer</h2>
+                            <h3 class="product__price">6.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/energy-drink.svg" alt="Energy Drink">
+                            <h2 class="product__name">Energy Drink</h2>
+                            <h3 class="product__price">5.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/juice.svg" alt="Juice">
+                            <h2 class="product__name">Juice</h2>
+                            <h3 class="product__price">4.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/milk.svg" alt="Milk">
+                            <h2 class="product__name">Milk</h2>
+                            <h3 class="product__price">2.50</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/mineral-water.svg" alt="Mineral Water">
+                            <h2 class="product__name">Mineral Water</h2>
+                            <h3 class="product__price">1.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/smoothie.svg" alt="Smoothie">
+                            <h2 class="product__name">Smoothie</h2>
+                            <h3 class="product__price">6.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="menu3" role="tabpanel">
+                    <div class="products">
+                        <div class="product">
+                            <img class="product__image" src="img/products/spaghetti.svg" alt="Beer">
+                            <h2 class="product__name">Spaghetti</h2>
+                            <h3 class="product__price">20.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Farfalle.svg" alt="Energy Drink">
+                            <h2 class="product__name">Farfalle</h2>
+                            <h3 class="product__price">20.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Fusilli.svg" alt="Juice">
+                            <h2 class="product__name">Fusilli</h2>
+                            <h3 class="product__price">22.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Oyakodon.svg" alt="Milk">
+                            <h2 class="product__name">Oyakodon</h2>
+                            <h3 class="product__price">25.50</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Chicken Rice.svg" alt="Mineral Water">
+                            <h2 class="product__name">Chicken & Rice</h2>
+                            <h3 class="product__price">21.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Risotto.svg" alt="Smoothie">
+                            <h2 class="product__name">Risotto</h2>
+                            <h3 class="product__price">25.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="menu4" role="tabpanel">
+                    <div class="products">
+                        <div class="product">
+                            <img class="product__image" src="img/products/Muffin.svg" alt="Beer">
+                            <h2 class="product__name">Muffin</h2>
+                            <h3 class="product__price">10.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Donut.svg" alt="Energy Drink">
+                            <h2 class="product__name">Donut</h2>
+                            <h3 class="product__price">9.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Short cake.svg" alt="Juice">
+                            <h2 class="product__name">Short cake</h2>
+                            <h3 class="product__price">14.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Parfait.svg" alt="Milk">
+                            <h2 class="product__name">Parfait</h2>
+                            <h3 class="product__price">18.50</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Fruit.svg" alt="Mineral Water">
+                            <h2 class="product__name">Fruit</h2>
+                            <h3 class="product__price">8.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="product__image" src="img/products/Apple pie.svg" alt="Smoothie">
+                            <h2 class="product__name">Apple pie</h2>
+                            <h3 class="product__price">14.00</h3>
+                            <button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+
+
+        <section class="section">
+            <h2 class="text-center">Cart</h2>
+            <div class="cart"></div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
